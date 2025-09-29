@@ -3,14 +3,19 @@ StreamMax Media Content Analytics with SQL Window Functions
 STEP 1: Problem Definition
 Business Scenario
 StreamMax Media is a fictional web video streaming website. The Content Analytics team needs to analyze viewing data to identify show popularity, viewer trends, and engagement. For example, they would like to identify most-watched programs by geographic region or quarter, compute cumulative watch time, measure month-over-month change, segment viewers by intensity of engagement, and smooth trends using moving averages. These insights tell StreamMax what to offer, how to personalize local content, and how to boost interaction. Here, each viewer has a region (say North America, Europe), each show has an ID and genre, and each watch event is recorded with a date and watch time.
+
+
 Data Challenge
 Before StreamMax had a proper system, all the viewing records were just raw logs and scattered reports. It was hard to know which shows people watched the most, how much time they spent, or how things changed from month to month. The data was messy and not easy to use for clear decisions.
+
 
 Expected Outcome
   The system will give clear information on which shows are most popular, how viewing changes over time, and how different groups of viewers watch content.
 
 
 STEP 2: Success Criteria
+
+
 Measurable goals
   Rank the top 5 shows by total watch time per region (using RANK()).
   Compute a running total of monthly watch time (using SUM() OVER).
@@ -21,6 +26,7 @@ Measurable goals
 
 
 STEP 3: Database Schema
+
 Database Scheme
   The database uses three tables:
   Viewers: (viewer_id PK, name, region)  each row is a registered user (with a region).
