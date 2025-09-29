@@ -1,6 +1,6 @@
-StreamMax Media Content Analytics with SQL Window Functions
+#StreamMax Media Content Analytics with SQL Window Functions
 
-STEP 1: Problem Definition
+##STEP 1: Problem Definition
 
 Business Scenario
 
