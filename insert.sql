@@ -1,0 +1,32 @@
+INSERT INTO Viewers (viewer_id, name, region) VALUES (1, 'Kanamugire Manudi', 'Rwamagana');
+INSERT INTO Viewers (viewer_id, name, region) VALUES (2, 'Alice Smith', 'North America');
+INSERT INTO Viewers (viewer_id, name, region) VALUES (3, 'Raj Patel', 'Asia');
+INSERT INTO Viewers (viewer_id, name, region) VALUES (4, 'Maria Garcia', 'Europe');
+INSERT INTO Viewers (viewer_id, name, region) VALUES (5, 'Chen Wei', 'Asia');
+INSERT INTO Viewers (viewer_id, name, region) VALUES (6, 'Oliver Johnson', 'Europe');
+INSERT INTO Viewers (viewer_id, name, region) VALUES (7, 'Mukarujanga Dapforosa', 'Kampembe');
+INSERT INTO Viewers (viewer_id, name, region) VALUES (8, 'Elena Petrova', 'Europe');
+INSERT INTO Viewers (viewer_id, name, region) VALUES (9, 'Lucas Silva', 'South America');
+INSERT INTO Viewers (viewer_id, name, region) VALUES (10, 'Sophie Mukandagije', 'Europe');
+
+INSERT INTO Shows (show_id, title, genre) VALUES (1, 'Galactic Wars', 'Sci-Fi');
+INSERT INTO Shows (show_id, title, genre) VALUES (2, 'Love in Tokyo', 'Romance');
+INSERT INTO Shows (show_id, title, genre) VALUES (3, 'Cooking Masters', 'Reality');
+INSERT INTO Shows (show_id, title, genre) VALUES (4, 'Haunted Night', 'Horror');
+INSERT INTO Shows (show_id, title, genre) VALUES (5, 'Historical Battles', 'Documentary');
+INSERT INTO Shows (show_id, title, genre) VALUES (6, 'City of Dreams', 'Drama');
+INSERT INTO Shows (show_id, title, genre) VALUES (7, 'Future Innovations', 'Sci-Fi');
+INSERT INTO Shows (show_id, title, genre) VALUES (8, 'Sports Legends', 'Sports');
+INSERT INTO Shows (show_id, title, genre) VALUES (9, 'Nature''s Fury', 'Documentary');
+INSERT INTO Shows (show_id, title, genre) VALUES (10, 'Magic Tales', 'Fantasy');
+
+INSERT INTO View_Logs (log_id, viewer_id, show_id, view_date, watch_time) VALUES (1, 1, 1, TO_DATE('2025-01-10','YYYY-MM-DD'), 120);
+INSERT INTO View_Logs (log_id, viewer_id, show_id, view_date, watch_time) VALUES (2, 1, 9, TO_DATE('2025-04-05','YYYY-MM-DD'), 100);
+INSERT INTO View_Logs (log_id, viewer_id, show_id, view_date, watch_time) VALUES (3, 3, 1, TO_DATE('2025-02-15','YYYY-MM-DD'), 90);
+INSERT INTO View_Logs (log_id, viewer_id, show_id, view_date, watch_time) VALUES (4, 3, 9, TO_DATE('2025-05-20','YYYY-MM-DD'), 110);
+INSERT INTO View_Logs (log_id, viewer_id, show_id, view_date, watch_time) VALUES (5, 2, 2, TO_DATE('2025-01-20','YYYY-MM-DD'), 45);
+INSERT INTO View_Logs (log_id, viewer_id, show_id, view_date, watch_time) VALUES (6, 4, 3, TO_DATE('2025-03-12','YYYY-MM-DD'), 60);
+INSERT INTO View_Logs (log_id, viewer_id, show_id, view_date, watch_time) VALUES (7, 5, 4, TO_DATE('2025-02-25','YYYY-MM-DD'), 50);
+INSERT INTO View_Logs (log_id, viewer_id, show_id, view_date, watch_time) VALUES (8, 6, 5, TO_DATE('2025-04-18','YYYY-MM-DD'), 80);
+INSERT INTO View_Logs (log_id, viewer_id, show_id, view_date, watch_time) VALUES (9, 7, 6, TO_DATE('2025-06-01','YYYY-MM-DD'), 70);
+INSERT INTO View_Logs (log_id, viewer_id, show_id, view_date, watch_time) VALUES (10, 8, 7, TO_DATE('2025-05-30','YYYY-MM-DD'), 30);
